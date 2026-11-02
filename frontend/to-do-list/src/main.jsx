@@ -1,6 +1,6 @@
 // import core and third party packages
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css'; // npm install bootstrap
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // npm install @popperjs/core
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
