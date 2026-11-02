@@ -128,7 +128,7 @@ const TodoList = () => {
                   value={basket[index] || ""}
                   onChange={(e) => handleBasketChange(index, e.target.value)}
                 />
-                <button className="btn btn-success" onClick={() => handleNewListItem(index)}>
+                <button className="btn btn-primary" onClick={() => handleNewListItem(index)}>
                   Add
                 </button>
               </div>
